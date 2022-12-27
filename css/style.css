@@ -1,18 +1,11 @@
 :root {
   --iris: #4d5ae5;
-
   --ocean: #404bbf;
-
   --navy-blue: #2e2f42;
-
   --green: #31d0aa;
-
   --slate: #434455;
-
   --light-slate: #8e8f99;
-
   --cornflower: #e7e9fc;
-
   --cloud: #f4f4fd;
 }
 *,
@@ -43,9 +36,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04rem;
-  cursor: pointer;
 }
-
 /*  HEADER  */
 .header {
   background: var(--cornflower);
@@ -69,8 +60,16 @@ body {
   font-weight: 500;
   color: var(--navy-blue);
 }
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--iris);
+}
 .contacts-link {
   color: var(--slate);
+}
+.contacts-link:focus,
+.contacts-link:hover {
+  color: var(--iris);
 }
 /* Hero  */
 .hero {
@@ -82,10 +81,13 @@ body {
   line-height: 1.07;
   color: #fff;
 }
-.hero-btn,
-.hero-btn.basic-btn {
+.hero-btn {
   background: var(--iris);
   color: #fff;
+}
+.hero-btn:focus,
+.hero-btn:hover {
+  background: var(--ocean);
 }
 /* Why we?  */
 .why-we-item > h3 {
@@ -122,9 +124,11 @@ body {
   background: var(--cornflower);
   color: var(--iris);
 }
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background: var(--ocean);
   color: #fff;
+  cursor: pointer;
 }
 .portfolio-footer-item > h2 {
   color: var(--navy-blue);
