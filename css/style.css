@@ -39,6 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04rem;
+  cursor: pointer;
 }
 
 /*  HEADER  */
@@ -118,7 +119,6 @@ body {
   color: var(--iris);
 }
 .portfolio-btn:hover {
-  cursor: pointer;
   background: var(--ocean);
   color: #fff;
 }
