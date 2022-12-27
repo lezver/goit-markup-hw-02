@@ -30,6 +30,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02rem;
+  color: var(--slate);
 }
 .basic-btn {
   font-family: 'Roboto', sans-serif;
@@ -66,7 +67,7 @@ body {
 .contacts-link {
   color: var(--slate);
 }
-/* HERO  */
+/* Hero  */
 .hero {
   background: var(--navy-blue);
 }
@@ -82,54 +83,50 @@ body {
   color: #fff;
 }
 /* Why we?  */
-.whyWe-item > h3 {
+.why-we-item > h3 {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-.whyWe-item > p {
-  color: var(--slate);
-}
 /* What are we doing  */
-.whatAreWeDoing-titel {
+.what-are-we-doing-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
 }
 /* Our Team  */
-.ourTeam {
+.our-team {
   background: var(--cloud);
 }
-.ourTeam-titel {
+.our-team-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
 }
-.ourTeam-item > h3 {
+.our-team-item > h3 {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-.ourTeam-item > p {
-  color: var(--slate);
 }
 /*  Portfolio  */
 .portfolio-btn {
   background: var(--cornflower);
   color: var(--iris);
 }
-.portfolio-footerItem > h2 {
+.portfolio-btn:hover {
+  cursor: pointer;
+  background: var(--ocean);
+  color: #fff;
+}
+.portfolio-footer-item > h2 {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-.portfolio-footerItem > p {
-  color: var(--slate);
 }
 /*    */
 /*    */
