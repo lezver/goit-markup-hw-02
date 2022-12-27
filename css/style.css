@@ -37,7 +37,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04rem;
 }
-/*  HEADER  */
+/* ==================== HEADER ==================== */
 .header {
   background: var(--cornflower);
 }
@@ -71,7 +71,7 @@ body {
 .contacts-link:hover {
   color: var(--iris);
 }
-/* Hero  */
+/* ==================== Hero ==================== */
 .hero {
   background: var(--navy-blue);
 }
@@ -90,21 +90,21 @@ body {
   background: var(--ocean);
   cursor: pointer;
 }
-/* Why we?  */
+/* ==================== Why we? ==================== */
 .why-we-item > h3 {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
-/* What are we doing  */
+/* ==================== What are we doing ==================== */
 .what-are-we-doing-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
 }
-/* Our Team  */
+/* ==================== Our Team ==================== */
 .our-team {
   background: var(--cloud);
 }
@@ -120,7 +120,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
-/*  Portfolio  */
+/* ==================== Portfolio ==================== */
 .portfolio-btn {
   background: var(--cornflower);
   color: var(--iris);
@@ -137,9 +137,9 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
-/*    */
-/*    */
-/*  FOOTER  */
+/* ====================  ==================== */
+/* ====================  ==================== */
+/* ==================== FOOTER ==================== */
 .footer {
   background: var(--navy-blue);
 }
