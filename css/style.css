@@ -1,0 +1,146 @@
+:root {
+  --iris: #4d5ae5;
+
+  --ocean: #404bbf;
+
+  --navy-blue: #2e2f42;
+
+  --green: #31d0aa;
+
+  --slate: #434455;
+
+  --light-slate: #8e8f99;
+
+  --cornflower: #e7e9fc;
+
+  --cloud: #f4f4fd;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.list-style {
+  list-style: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+}
+.basic-btn {
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+}
+
+/*  HEADER  */
+.header {
+  background: var(--cornflower);
+}
+.logo {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-weight: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03rem;
+}
+.logo > span {
+  color: var(--iris);
+}
+.logo:visited {
+  color: inherit;
+}
+.nav-link {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+.contacts-link {
+  color: var(--slate);
+}
+/* HERO  */
+.hero {
+  background: var(--navy-blue);
+}
+.hero-titel {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #fff;
+}
+.hero-btn,
+.hero-btn.basic-btn {
+  background: var(--iris);
+  color: #fff;
+}
+/* Why we?  */
+.whyWe-item > h3 {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.whyWe-item > p {
+  color: var(--slate);
+}
+/* What are we doing  */
+.whatAreWeDoing-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue);
+}
+/* Our Team  */
+.ourTeam {
+  background: var(--cloud);
+}
+.ourTeam-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue);
+}
+.ourTeam-item > h3 {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.ourTeam-item > p {
+  color: var(--slate);
+}
+/*  Portfolio  */
+.portfolio-btn {
+  background: var(--cornflower);
+  color: var(--iris);
+}
+.portfolio-footerItem > h2 {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.portfolio-footerItem > p {
+  color: var(--slate);
+}
+/*    */
+/*    */
+/*  FOOTER  */
+.footer {
+  background: var(--navy-blue);
+}
+.logo.footer-logo,
+.logo.footer-logo:visited {
+  color: var(--cloud);
+}
+.footer-info {
+  color: var(--cornflower);
+}
